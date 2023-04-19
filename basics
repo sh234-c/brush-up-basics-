@@ -1,0 +1,101 @@
+// // // write a program to print natural number from 10 to 20 where initialising i=0
+// // #include <stdio.h>
+
+// // int main(){
+// //     int i=0;
+// //     while(i<=20){
+// //         if(i>=10){
+// //             printf("%d\n",i);
+// //         }
+// //         i++;
+        
+// //     }
+// //     return 0;
+// // }
+// #include <stdio.h>
+
+// int main(){
+//     int i=1;
+//     do{
+//         printf("the value of i is %d\n",i);
+//      return 0;
+
+
+//       i++;
+//     }while(i<5);
+//     return 0;
+// }.
+// #include <stdio.h>
+
+// int main(){
+//     for(int a=0;a<11;a++){
+//         printf("the value of a is %d\n",a);
+//     }
+//     return 0;
+// }
+// write a program to print n natural number in reverse order
+// #include <stdio.h>
+
+// int main(){
+//     int n;
+//     printf("enter the value of n\n");
+//     scanf("%d",&n);
+//     for(int i=n;i;i--){
+//         printf("%d\n",i);
+//     }
+//     return 0;
+// #include <stdio.h>
+
+// int main(){
+//     int a=10;
+//     int b=20;
+//     int c=a+b;
+//     printf("the value of c is %d\n",c);
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main(){
+//     for(int i=0;i<=5;i++){
+//         printf("yes\n");
+//     }
+//     return 0;
+//     }
+// now basics of functions
+// #include <stdio.h>
+// void goodMorning();
+// void goodAfternoon();
+// void goodEvening();//function prototype
+// int main(){
+//     goodMorning();
+//  goodAfternoon();
+// goodEvening();
+// return 0;
+    
+// }
+
+// void goodMorning(){
+//     printf("good morning shruti\n");
+// }
+// void goodAfternoon(){
+//     printf("good afternoon shruti\n");
+// }
+// void goodEvening(){
+//     printf("good evening shruti\n");
+// }
+// #include <stdio.h>
+
+// int sum(int a,int b);//function prototype
+// int main(){
+//     int c;
+//     c=sum(2,5);
+//     printf("the valueof c is %d\n",c);
+//     return 0;
+// }
+
+
+// int sum(int a,int b){
+//     int result;
+//     result=a+b;
+//     return result;
+// }
