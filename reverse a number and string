@@ -1,0 +1,73 @@
+// // #include <stdio.h> 
+// // int main()
+// // {
+// //     int var1, var2, temp; 
+// //     printf("Enter two integers \n");
+// //     scanf("%d%d", &var1, &var2);
+// //     printf("Before Swappingn First variable = %d\nSecond variable = %d \n", var1, var2);
+// //     temp = var1;
+// //     var1 = var2;
+// //     var2 = temp;
+// //     printf("After Swappingn First variable = %d\nSecond variable = %d\n", var1, var2);
+// //     return 0;
+// // }
+// #include <stdio.h>
+
+// int main(){
+//     int var1,var2,temp;
+//     printf("enter two integer\n");
+//     scanf("%d%d",&var1,&var2);
+//     printf("before swapping first variable=%d\nsecond variable=%d\n",var1,var2);
+//     temp=var1;
+//     var1=var2;
+//     var2=temp;
+//       printf("after swapping first variable=%d\nsecond variable=%d\n",var1,var2);
+//       return 0;
+    
+// }
+// #include <stdio.h>
+
+// int main(){
+//     int var1,var2,temp;
+//     printf("enter two integer\n");
+//     scanf("%d%d",&var1,&var2);
+//     printf("before swapping first variable=%d\nsecond variable=%d\n",var1,var2);
+//     temp=var1;
+//     var1=var2;
+//     var2=temp;
+//         printf("after swapping first variable=%d\nsecond variable=%d\n",var1,var2);
+//         return 0;
+    
+// }
+// #include <stdio.h>
+// #include <string.h>
+
+// int main(){
+//     char s[100];
+//     printf("enter a word\n");
+//     scanf("%s",s);
+//     int l=strlen(s);
+//     for(int i=l-1;i>=0;i--){
+//         printf("%c",s[i]);
+//     }
+//     return 0;
+// }
+// HOW TO REVERSE A NUMBER
+#include <stdio.h>
+
+int reverse(int num){
+    int rev=0,rem;
+    while(num!=0){
+        rem=num%10;//last digit of number
+        rev=rev*10+rem;
+        num=num/10;//45->4
+        
+    }
+    return rev;
+}
+int main(){
+    int num=234;
+    int rev=reverse(num);
+    printf("the reversed number is %d",rev);
+    return 0;
+}
