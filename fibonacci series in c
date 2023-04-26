@@ -1,0 +1,46 @@
+// #include <stdio.h>
+// int reverse(int num){
+//     int rev=0,rem;
+//     while(num!=0){
+//         rem=num%10;//last digit of number 40%10
+//         rev=rev*10+rem;
+//         num=num/10;//45->4
+//     }
+//     return rev;
+// }
+// int main(){
+//     int num=897;
+//     int rev=reverse(num);
+//     printf("the reverse number is %d",rev);
+//     return 0;
+// }
+// WRITE A PROGRAM FOR FIBONACCI SERIES
+// #include <stdio.h>
+
+// int main(){
+//     int n,a=0,b=1,c;
+//     printf("enter number of term");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         printf("%d",a);
+//         c=a+b;
+//         a=b;
+//         b=c;
+//     }
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main(){
+//     int n, a=0,b=1,c;//as we have to given two inputs
+//     printf("enter the number of term:");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         printf("%d ",a);
+//         c=a+b;
+//         a=b;
+//         b=c;
+//     }
+//     return 0;
+    
+// }
