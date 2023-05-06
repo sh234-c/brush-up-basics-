@@ -1,0 +1,173 @@
+// PRINT N NATURAL NUMBER USING WHILE AND FOR 
+// #include <stdio.h>
+
+// int main(){
+//     for(int i=0;i<11;i++){
+//         printf("%d\n",i);
+//     }
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main(){
+//     int a=0;
+//     while(a<11){
+//         printf("%d\n",a);
+//         a++;
+//     }
+//     return 0;
+// }
+// C PROGRAM TO FIND SUM OF N NATURAL NUMBER
+// #include <stdio.h>
+// int main(){
+//     int n,sum=0;
+//     printf("enter the last number you want sum of\n");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         sum+=i;
+//     }
+//     printf("the sum of first %d natural number is:%d\n",n,sum);
+//     return 0;
+// }
+// C PROGRAM TO FIND THE GREATEST ELEMENT IN AN ARRAY
+// #include <stdio.h>
+// int returnMax(int arr[],int n){//we make function
+// int max=0;
+// for(int i=0;i<n;i++){
+//     if(arr[i]>max){
+//         max=arr[i];
+//     }
+// }
+// return max;
+    
+// }
+// int main(){
+//     int arr[]={1,2,3,4,5};
+//     int max=returnMax(arr,5);
+//     printf("the max element in this array is %d:",max);
+//     return 0;
+// }
+// #include <stdio.h>
+// int returnMax(int arr[],int n){
+//     int max=0;
+//     for(int i=0;i<n;i++){
+//         if(arr[i]>max){
+//             max=arr[i];
+//         }
+//     }
+//     return max;
+// }
+// int main(){
+//     int arr[]={23,67,12,45,111,189};
+//     int max=returnMax(arr,6);
+//     printf("the max element in this array is %d:",max);
+//     return 0;
+// }
+// C PROGRAM TO  REVERSE A STRING
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//     char s[100];
+//     printf("enter a word:");
+//     scanf("%s",s);
+//     int l=strlen(s);
+//     for(int i=l-1;i>=0;i--){
+//         printf("%c",s[i]);
+//     }
+//     return 0;
+// }
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//     char s[100];
+//     printf("enter a word:");
+//     scanf("%s",s);
+//     int l=strlen(s);
+//     for(int i=l-1;i>=0;i--){
+//         printf("%c",s[i]);
+//     }
+//     return 0;
+// }
+// C PROGRAM TO CALCULATE THE FIBONACCI SERIES
+// #include <stdio.h>
+
+// int main(){
+//     int n,a=0,b=1,c;//we have to give the two input
+//     printf("enter the number of terms:");
+//     scanf("%d",&n);
+//     for(int i=0;i<n;i++){
+//         printf("%d",a);
+//         c=a+b;
+//         a=b;
+//         b=c;
+//     }
+//     return 0;
+// }
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//     char s[100];
+//     printf("enter a string:");
+//     scanf("%s",s);
+//     int l=strlen(s);
+//     printf("the length of  string is %d:",l);
+//     return 0;
+// }
+// CALCULATE THE AREA OF RECTANGLE
+// #include <stdio.h>
+// int main(){
+//     int side,area;
+//     printf("enter the value of side:");
+//     scanf("%d",&side);
+//     area=side*side;
+//     printf("the area of square is %d:",area);
+//     return 0;
+//
+// print n natural number in reverse order
+// #include <stdio.h>
+
+// int main(){
+//     int n;
+//     printf("enter the value of n\n");
+//     scanf("%d",&n);
+//     for(int i=n;i>=1;i--){
+//         printf("%d\n",i);
+//     }
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main(){
+//     int a,b,c;
+//     printf("enter the value of a\n");
+//     scanf("%d",&a);
+//       printf("enter the value of b\n");
+//     scanf("%d",&b);
+//     c=a+b;
+//     printf("the value of c is %d:",c);
+//     return 0;
+    
+// // }
+// #include <stdio.h>
+
+// int main(){
+//     int a,b,c;
+//     printf("enter the value of a\n");
+//     scanf("%d",&a);
+//         printf("enter the value of b\n");
+//     scanf("%d",&b);
+//         printf("enter the value of c\n");
+//     scanf("%d",&c);
+//     float average=(a+b+c)/3;
+//     printf("the value of average is %f:",average);
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main(){
+//     int side;
+//     printf("enter the value of side\n");
+//     scanf("%d",&side);
+//     printf("the value of area of square is %f:",pow(side,2));
+//     return 0;
+// }
