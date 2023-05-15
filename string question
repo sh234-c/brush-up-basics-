@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char s[100]="selection ssort";
+    int l=strlen(s);
+    for(int i=0;i<l;i++){
+        char ch=s[i];
+        for(int j=i+1;j<l;){
+            if(s[i]==s[j]){
+                for(int k=j;k<l;k++){//if duplicacy allowed so shift right character to left
+                s[k]=s[k+1];
+            }
+            l--;//as length decreases after shifting
+        }
+        else{
+            j++;
+        }
+    }
+}
+printf("%s",s);
+return 0;
+}
