@@ -1,0 +1,41 @@
+// CHECK TWO STRINGS ARE ANAGRAM OR NOT
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char s1[100]="listen";
+    char s2[100]="silent";
+    char temp;
+    int n=strlen(s1);
+    int n1=strlen(s2);
+    //if lenght of two strig are not equal
+    if(n!=n1){
+        printf("%s and %s are not anagram\n",s1,s2);
+        return 0;
+    }
+    //lets sort both string
+    for(int i=0;i<n-1;i++){
+        for(int j=i+1;j<n;j++){
+            if(s1[i]>s1[j]){
+                temp=s1[i];
+                s1[i]=s1[j];
+                s1[j]=temp;
+            }
+            if(s2[i]>s2[j]){
+                 temp=s2[i];
+                s2[i]=s2[j];
+                s2[j]=temp;
+                
+            }
+        }
+    }
+    //compare both string by characters
+    for(int i=0;i<n;i++){
+        if(s1[i]!=s2[i]){
+            printf("strings are not anagrams\n",s1,s2);
+            return 0;
+        }
+    }
+    printf("strings are anagram\n");
+    return 0;
+    
+}
