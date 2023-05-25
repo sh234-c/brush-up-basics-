@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+#include <unordered_map>
+using namespace std;
+int main(){
+    unordered_map<string,int>umap;
+    umap["shruti"]=34;
+    umap["chaudhary"]=90;
+    umap["helloworld"]=78;
+    // for(auto x:umap)//umap each element inserted into x
+    // cout<<x.first<<" "<<x.second<<endl;
+    // lets take an iterator
+    // for(auto itr=umap.begin();itr!=umap.end();itr++)
+    // cout<<itr->first<<" "<<itr->second<<endl;
+    //now we haveto findthe key present in map
+    string key="chaudhary";
+    if(umap.find(key)!=umap.end())
+    cout<<"key found"<<endl;
+    else
+    cout<<"key not found"<<endl;
+    if(umap.find(key)!=umap.end()){
+        auto temp=umap.find(key);
+        cout<<"key is:"<<temp->first<<endl;
+        cout<<"value is:"<<temp->second<<endl;
+    }
+    umap.insert(make_pair("mobile",17000));
+    umap.insert(make_pair("radhika",900));
+    key="shruti";
+    umap.erase(key);
+     for(auto itr=umap.begin();itr!=umap.end();itr++)
+    cout<<itr->first<<" "<<itr->second<<endl;
+    cout<<umap.size()<<endl;
+    
+    int arr[]={1,2,3,4,5,1,2,3,4,56,7,6,7};
+    unordered_map<int,int>umapped;
+    for(int i=0;i<13;i++){
+       int key=arr[i];
+        umapped[key]++;
+    }
+         for(auto itr=umapped.begin();itr!=umapped.end();itr++)
+    cout<<itr->first<<" "<<itr->second<<endl;
+    
+}
