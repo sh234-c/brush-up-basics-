@@ -1,0 +1,28 @@
+// #include <stdio.h>
+
+// int main(){
+//     int var1,var2,temp;
+//     printf("enter two integers\n");
+//     scanf("%d%d",&var1,&var2);
+//     printf("before swapping the first variable is %d\nsecond variable is %d\n",var1,var2);
+//     temp=var1;
+//     var1=var2;
+//     var2=temp;
+//       printf("after swapping the first variable is %d\nsecond variable is %d\n",var1,var2);
+//       return 0;
+    
+// }
+
+//SWAPPING TWO numbers WITHOUT USING THIRD VARIABLE
+
+#include <stdio.h>
+
+int main(){
+    int a=10,b=20;
+    printf("before swapping a is %d\nb is %d\n",a,b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+       printf("after swapping a is %d\nb is %d\n",a,b);
+       return 0;
+}
