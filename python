@@ -1,0 +1,32 @@
+# print("hello world")
+# print("my name is shruti chaudhary")
+# print("i am 20 years old now")
+# print("my name is shruti chaudhary","i am 20 years old")
+# HOW TO USE VARIABLES IN THE PYTHON
+# name="shruti chaudhary"
+# age=20
+# price=24.99
+# print("my name is:",name)
+# print("my age is:",age)
+# print(type(name))
+# print(type(age))
+# print(type(price))
+
+# age=23
+# old=False
+# a=None
+# print(type(age))
+# print(type(old))
+# print(type(a))
+
+# PRINT SUM IN PYTHON LANGUAGE
+# a=8
+# b=8
+# sum=a+b
+
+# print(sum)
+
+# a=8
+# b=5
+# diff=a-b
+# print(diff)
