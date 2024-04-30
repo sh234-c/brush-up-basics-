@@ -1,0 +1,49 @@
+# name=input("name:")
+# print(name)
+# TRAFFIC LIGHT CODE
+# light=input("light colour:")
+# if(light=="red"):
+#     print("stop")
+# elif(light=="yellow"):
+#     print("ready to move")
+# elif(light=="green"):
+#     print("go")
+# else:
+#     print("light is broken")
+
+# GRADES PROGRAM IN PYTHON
+# marks=int(input("marks:"))
+# if(marks>=90):
+#     print("A")
+# elif(marks>=80 and marks<90):
+#     print("B")
+# elif(marks>=70 and marks<80):
+#     print("C")
+# else:
+#     print("D")
+
+# PROGRAM TO FIND THE SIMPLE INTEREST IN PYHTON
+
+# p=float(input("p:"))
+# r=float(input("r:"))
+# t=float(input("t:"))
+# si=(p*r*t)/100
+# print(si)
+
+# IF WE HAVE TO CALCULATE THE POWER IN PYTHON
+# a=5
+# b=2
+# print(a**b)
+# print(a==b) false dega
+
+# num=10
+# num+=10
+# print(num)
+
+# a=9
+# b=8
+# print(not(a>b))
+
+# val1=True
+# val2=True
+# print("And opeartor:",val1 and val2)
