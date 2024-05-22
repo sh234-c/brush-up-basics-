@@ -1,0 +1,131 @@
+//BASIC QUESTION OF THE ARRAY->PRINT THE ELEMENTS OF THE ARRAY 
+// #include <stdio.h>
+
+// int main(){
+//     int arr[]={1,2,3,4,5};//we initialises the array here
+//     int length=sizeof(arr)/sizeof(arr[0]);
+//     for(int i=0;i<length;i++){
+//         printf("%d\n",arr[i]);
+//     }
+//     return 0;
+// }
+
+//LENGTH OF THE ARRAY
+// #include <stdio.h>
+
+// int main(){
+//     int arr[]={1,2,3,4,5};
+//     int length=sizeof(arr)/sizeof(arr[0]);
+//     printf("the length of the array is: %d",length);
+//     return 0;
+// }
+
+//SUM OF THE ELEMENTS OF THE ARRAY
+
+// #include <stdio.h>
+
+// int main(){
+//     int arr[]={1,2,3,4,5};
+//     int sum=0;
+//     int length=sizeof(arr)/sizeof(arr[0]);
+//     for(int i=0;i<length;i++){
+//         sum=sum+arr[i];
+//     }
+//     printf("the sum of the elements of the array is  :%d",sum);
+//     return 0;
+    
+// }
+
+//REVERSE THE ARRAY
+
+// #include <stdio.h>
+// #define N 1000
+
+
+// int main(){
+//     int n;//it defines the size of the array
+//     int arr[N];//where N is the capacity of the array
+//     scanf("%d",&n);
+//     for(int i=0;i<n;i++){
+//         scanf("%d",&arr[i]);
+//     }
+//     for(int i=n-1;i>=0;i--){
+//         printf("%d ",arr[i]);
+//     }
+//     return 0;
+    
+// }
+
+//TRAVERSAL OF AN ARRAY->VISIT EACH AND EVERY ELEMENT ONCE 
+//TIME COMPLEXITY IS 0(N);
+//USING FUNCTION DISPALAY
+
+// #include <stdio.h>
+
+// void display(int arr[],int n){//we make a display function here
+// for(int i=0;i<n;i++){
+//     printf("%d\n",arr[i]);
+// }
+// }
+// int main(){
+//     int arr[100]={1,2,3,4,5};
+//     display(arr,5);
+//     return 0;
+// }
+
+//INSERTION AT A PARTICULAR INDEX IN AN ARRAY
+
+// #include <stdio.h>
+
+// void display(int arr[],int n){
+//     for(int i=0;i<n;i++){
+//         printf("%d\n",arr[i]);
+//     }
+// }
+// int indInsertion(int arr[],int size,int element,int index,int capacity){
+//     if(size>=capacity){
+//         return -1;
+//     }
+//     for(int i=size-1;i>=index;i--){
+//         arr[i+1]=arr[i];//we shift the elements 
+//     }
+//     arr[index]=element;
+//     return 1;
+// }
+
+// int main(){
+//     int arr[100]={1,2,3,4,5};
+//     int size=5,element=10,index=3;
+//     display(arr,size);
+//     indInsertion(arr,size,element,index,100);
+//     size+=1;
+//       display(arr,size);
+//       return 0;
+    
+// }
+
+//DELETION OF AN ELEMENT IN AN ARRAY
+
+#include <stdio.h>
+
+void display(int arr[],int n){
+    for(int i=0;i<n;i++){
+        printf("%d\n",arr[i]);
+    }
+}
+
+void indDeletion(int arr[],int size,int index){
+    for(int i=index;i<size;i++){
+        arr[i]=arr[i+1];
+    }
+}
+
+int main(){
+    int arr[100]={1,2,3,4,5};
+    int size=5,index=1;
+    display(arr,size);
+    indDeletion(arr,size,index);
+    size-=1;//as size reduces after the deletion
+    display(arr,size);
+    return 0;
+}
