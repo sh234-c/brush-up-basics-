@@ -1,0 +1,46 @@
+// //PRIME NUMBER PROGRAM -> PRIME NUMBERS ARE THOSE NUMBER WHICH CAN BE DIVISIBLE BY 0 OR 1
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     int n,flag=0;//number to check
+//     cout<<"enter the number:";
+//     cin>>n;
+//     //if not true flag=0 turns to flag=1
+    
+//     if(n==0 || n==1){
+//         flag=1;//as 0 and 1 are not prime numbers
+//     }
+//     for(int i=2;i<=n/2;i++){//as 1 is not prime number
+//     if(n%i==0){//only divisible by 1 or itself
+//         flag=1;
+//         break;
+//     }
+        
+//     }
+//     if(flag==0){
+//         cout<<"prime number";
+//     }
+//     else{
+//         cout<<"not a prime number";
+//     }
+//     return 0;
+// }
+
+//ONE OF THE IMPORTANT QUESTION ->REVERSE THE NUMBER
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     int num,reverse=0;//initially reverse should be 0
+//     cout<<"enter the number:";
+//     cin>>num;
+//     while(num!=0){
+//         int rem=num%10;
+//         reverse=reverse*10+rem;//stores the reverse number
+//         num=num/10;
+//     }
+//     cout<<"the reverse number is:"<<reverse;
+// }
