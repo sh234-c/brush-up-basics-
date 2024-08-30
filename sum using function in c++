@@ -1,0 +1,20 @@
+//FUNCTION->SUM OF TWO NUMBERS
+
+#include <iostream>
+using namespace std;
+
+int add(int a,int b){//like we have to add two numbers
+int c=a+b;
+return c;
+    
+}//here we give the return type
+
+int main(){
+    int a,b;//we make the container for a and b
+    cout<<"enter first number"<<endl;
+    cin>>a;
+      cout<<"enter second number"<<endl;
+    cin>>b;
+    cout<<"the function returned:"<<add(a,b);
+    return 0;
+}
