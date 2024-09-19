@@ -1,0 +1,20 @@
+// #include <iostream> // Header file for input/output stream
+// using namespace std; // Using the standard namespace
+
+// int main()
+// {
+//     int nums[] = {1, 2, 3, 5, 5, 7, 8, 8, 9, 9, 2}; // Declaration and initialization of an integer array
+//     int i, j; // Declaration of loop control variables
+//     int size = sizeof(nums) / sizeof(nums[0]); // Calculate the number of elements in the array
+//     cout << "Original array: ";
+//     for (i = 0; i < size; i++) 
+//         cout << nums[i] << " "; // Output each element of the original array
+
+//     cout << "\nRepeating elements: "; // Output label for repeating elements
+//     for (i = 0; i < size; i++) // Outer loop to iterate through each element in the array
+//         for (j = i + 1; j < size; j++) // Inner loop to compare each element with subsequent elements
+//             if (nums[i] == nums[j]) // Check if current element is equal to any other element in the array
+//                 cout << nums[i] << " "; // Output the repeating element
+
+//     return 0; // Return 0 to indicate successful execution
+// }
